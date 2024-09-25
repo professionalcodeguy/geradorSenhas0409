@@ -8,7 +8,7 @@ export function ModalPassword({senha, handleClose}) {
                 <Text style={styles.title}>Senha Gerada</Text>
 
                 <Pressable style={styles.innerPassword}>
-                    <Text stlye={styles.text}>
+                    <Text style={styles.text}>
                         {senha}
                     </Text>
                 </Pressable>
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     },
 
     text:{
-        color: "#fff",
+        color: "#000",
         textAlign: "center",
     },
 
